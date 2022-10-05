@@ -82,9 +82,26 @@ a {
     
 }
 
+.info-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
 .info img {
     width:200px;
     height: auto;
+    border-radius: 30px; 
+}
+
+.info-section {
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 
