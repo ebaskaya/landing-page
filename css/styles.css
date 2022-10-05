@@ -13,7 +13,7 @@ body {
     color: #F9FAF8;
 }
 
-.hero-secondary, a{
+.hero-secondary, a {
     color: #e5e7eb;
 }
 
@@ -106,3 +106,6 @@ a {
 }
 
 
+.quote-section{
+    background-color: #e5e7eb;
+}
