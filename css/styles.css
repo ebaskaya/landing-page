@@ -5,6 +5,8 @@ body {
 
 .header, .hero{
     background-color: #1F2937;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .header, .hero-main{
@@ -19,7 +21,7 @@ body {
     background-color: #1F2937;
     font-size: 24px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -39,11 +41,16 @@ a {
 
 .hero {
     display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 100px;
+    
 }
 
 .hero-left {
     display:flex;
     flex-direction: column;
+    width: 600px;
 }
 
 .hero img{
