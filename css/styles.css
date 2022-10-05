@@ -62,7 +62,7 @@ a {
     border-radius: 8px;
     border: 1px solid #3882F6;
     width: max-content;
-    padding: 5px;
+    padding: 5px 15px;
     
 }
 
@@ -81,4 +81,6 @@ a {
     font-size: 18px;
     
 }
+
+
 
