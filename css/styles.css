@@ -1,6 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero{
+    background-color: #1F2937;
+}
+
+.header, .hero-main{
+    color: #F9FAF8;
+}
+
+.hero-secondary, a{
+    color: #e5e7eb;
+}
+
 .header {
     background-color: #1F2937;
-    color: white;
+    font-size: 24px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,7 +32,33 @@ ul {
 }
 
 a {
-    color: #e5e7eb;
+   
     text-decoration: none;
     font-size: 18px;
 }
+
+.hero {
+    display: flex;
+}
+
+.hero-left {
+    display:flex;
+    flex-direction: column;
+}
+
+.hero img{
+    width: 500px;
+    height: auto;
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight : 800;
+    
+}
+
+.hero-secondary{
+    font-size: 18px;
+    
+}
+
