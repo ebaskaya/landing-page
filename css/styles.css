@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -74,7 +78,7 @@ a {
 
 .hero-main{
     font-size: 48px;
-    font-weight : 800;
+    font-weight : 700;
     
 }
 
@@ -85,7 +89,7 @@ a {
 
 .info-title {
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 700;
     margin: 20px 0px;
 }
 
@@ -97,6 +101,7 @@ a {
 
 .info-section {
     text-align: center;
+    padding: 100px 0;
 }
 
 .info-container {
@@ -108,4 +113,17 @@ a {
 
 .quote-section{
     background-color: #e5e7eb;
+    display: flex;
+    
+    justify-content: center;
+    text-align: end;
+    padding: 100px 0;
+    
+}
+
+.quote-section blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
 }
