@@ -13,7 +13,8 @@ body {
     padding-right: 300px;
 }
 
-.header, .hero-main, .hero-left button{
+.header, .hero-main, .hero-left button, 
+.action-container, .action-container button{
     color: #F9FAF8;
 }
 
@@ -23,6 +24,10 @@ body {
 
 .hero-left button, .action-container button {
     background-color: #3882F6;
+    border-radius: 8px;
+    width: max-content;
+    padding: 5px 15px;
+    font-size: 16px;
    
 }
 
@@ -67,12 +72,7 @@ a {
 }
 
 .hero-left button {
-    background-color: #3882F6;
-    border-radius: 8px;
     border: 1px solid #3882F6;
-    width: max-content;
-    padding: 5px 15px;
-    font-size: 16px;
     
 }
 
@@ -142,4 +142,18 @@ a {
 
 .action-container {
     background-color: #3882F6;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    border-radius: 8px;
+}
+
+.action-container button {
+    border: 1px solid #F9FAF8;
+    
+}
+
+.action-header {
+    font-size: 20px;
 }
