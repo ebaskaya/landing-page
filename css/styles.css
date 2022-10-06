@@ -21,6 +21,11 @@ body {
     color: #e5e7eb;
 }
 
+.hero-left button, .action-container button {
+    background-color: #3882F6;
+   
+}
+
 .header {
     background-color: #1F2937;
     font-size: 24px;
@@ -90,7 +95,7 @@ a {
 .info-title {
     font-size: 25px;
     font-weight: 700;
-    margin: 20px 0px;
+    margin: -40px 0px 40px 0px;
 }
 
 .info img {
@@ -126,4 +131,15 @@ a {
     color: #1F2937;
     font-style: italic;
     font-weight: 100;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.action-container {
+    background-color: #3882F6;
 }
